@@ -7,5 +7,7 @@
   "bracketSpacing": true,
   "bracketSameLine": false,
   "arrowParens": "avoid",
-  "vueIndentScriptAndStyle": true
+  "vueIndentScriptAndStyle": true,
+  "singleAttributePerLine": true,
+  "htmlWhitespaceSensitivity": "ignore"
 }
