@@ -1,8 +1,12 @@
+<script setup lang="ts">
+  import { DefaultLayout } from '@/components/layouts/default-layout'
+</script>
 <template>
-	<Suspense>
-		<router-view />
-	</Suspense>
+  <Suspense>
+    <DefaultLayout>
+      <router-view />
+    </DefaultLayout>
+  </Suspense>
 </template>
 
-<script setup lang="ts"></script>
 <style scoped></style>
