@@ -1,3 +1,3 @@
 <template>
-  <div>AdminPage</div>
+  <div>Chat</div>
 </template>

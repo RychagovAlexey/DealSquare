@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { DefaultLayout } from '@/components/layouts/default-layout'
 </script>
+
 <template>
   <Suspense>
     <DefaultLayout>
@@ -8,5 +9,3 @@
     </DefaultLayout>
   </Suspense>
 </template>
-
-<style scoped></style>

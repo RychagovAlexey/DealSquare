@@ -1,20 +1,21 @@
+import { RouteRecordRaw, createRouter, createWebHistory } from 'vue-router'
+
 import { PAGE_NAMES } from '@/constans/pageNames'
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 const AdminPage = () => import('@/views/AdminPage.vue')
-const Auth = () => import('@/views/Auth.vue')
+const AuthPage = () => import('@/views/AuthPage.vue')
 const BuyPremium = () => import('@/views/BuyPremium.vue')
 const Categories = () => import('@/views/Categories.vue')
-const Chat = () => import('@/views/Chat.vue')
+const ChatPage = () => import('@/views/ChatPage.vue')
 const ChatsList = () => import('@/views/ChatsList.vue')
 const CreateListing = () => import('@/views/CreateListing.vue')
-const Home = () => import('@/views/Home.vue')
+const HomePage = () => import('@/views/HomePage.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: PAGE_NAMES.HOME,
-    component: Home,
+    component: HomePage,
   },
   {
     path: '/admin-page',
@@ -34,7 +35,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/chat',
     name: PAGE_NAMES.CHAT,
-    component: Chat,
+    component: ChatPage,
   },
   {
     path: '/categories',
@@ -49,7 +50,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/auth',
     name: PAGE_NAMES.AUTH,
-    component: Auth,
+    component: AuthPage,
   },
 ]
 export const router = createRouter({

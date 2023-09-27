@@ -12,14 +12,14 @@ export const vuetify = createVuetify({
       dark: {
         colors: {
           surface: '#000',
-          secondary: "#177306",
-        }
+          secondary: '#177306',
+        },
       },
       light: {
         colors: {
-          secondary: "#177306",
-        }
-      }
+          secondary: '#177306',
+        },
+      },
     },
   },
 })
