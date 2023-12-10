@@ -9,13 +9,13 @@ const Categories = () => import('@/views/Categories.vue')
 const ChatPage = () => import('@/views/ChatPage.vue')
 const ChatsList = () => import('@/views/ChatsList.vue')
 const CreateListing = () => import('@/views/CreateListing.vue')
-const HomePage = () => import('@/views/HomePage.vue')
+const MarketplacePage = () => import('@/views/MarketplacePage.vue')
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: PAGE_NAMES.HOME,
-    component: HomePage,
+    component: MarketplacePage,
   },
   {
     path: '/admin-page',

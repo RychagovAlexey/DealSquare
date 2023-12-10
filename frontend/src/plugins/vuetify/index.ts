@@ -7,17 +7,12 @@ export const vuetify = createVuetify({
   components,
   directives,
   theme: {
-    defaultTheme: 'dark', // Enable dark mode
     themes: {
-      dark: {
-        colors: {
-          surface: '#000',
-          secondary: '#177306',
-        },
-      },
       light: {
         colors: {
-          secondary: '#177306',
+          primary: '#4263f5',
+          secondary: '#6370af',
+          background: '#f2f5fc',
         },
       },
     },
